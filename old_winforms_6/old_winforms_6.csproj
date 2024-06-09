@@ -46,14 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GeneralTask1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralTask1.Designer.cs">
+      <DependentUpon>GeneralTask1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralTask2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralTask2.Designer.cs">
+      <DependentUpon>GeneralTask2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualTask1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualTask1.Designer.cs">
+      <DependentUpon>IndividualTask1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualTask2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualTask2.Designer.cs">
+      <DependentUpon>IndividualTask2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualTask3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualTask3.Designer.cs">
+      <DependentUpon>IndividualTask3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
