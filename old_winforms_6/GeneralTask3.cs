@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace old_winforms_6
 {
-    public partial class IndividualTask2 : Form
+    public partial class GeneralTask3 : Form
     {
-        public IndividualTask2()
+        public GeneralTask3()
         {
             InitializeComponent();
         }
@@ -30,47 +30,23 @@ namespace old_winforms_6
             dataGridView1.ColumnHeadersVisible = false;
             dataGridView1.RowHeadersVisible = false;
 
-            int[,] mas = new int[n, m];
+            dataGridView2.RowCount = n;
+            dataGridView2.ColumnCount = m;
 
-            int maxValue = -6;
-            int flagCountMaxValueInMas = 0;
+            dataGridView2.ColumnHeadersVisible = false;
+            dataGridView2.RowHeadersVisible = false;
 
             for (int i = 0; i + 1 <= n; i++)
             {
                 for (int j = 0; j + 1 <= m; j++)
                 {
                     dataGridView1.Columns[j].Width = 40;
-                    mas[i, j] = random.Next(-5, 5);
-                    dataGridView1.Rows[i].Cells[j].Value = mas[i, j];
-
-                    if (mas[i, j] > maxValue)
-                    {
-                        maxValue = mas[i, j];
-                    }
+                    dataGridView1.Rows[i].Cells[j].Value = random.Next(-100, 100);
+                    
+                    dataGridView2.Columns[j].Width = 40;
+                    dataGridView2.Rows[i].Cells[j].Value = Math.Pow(Convert.ToInt32(dataGridView1.Rows[i].Cells[j].Value), 2);
                 }
             }
-
-            label5.Text = "...";
-
-            for (int i = 0; i + 1 <= n; i++)
-            {
-                for (int j = 0; j + 1 <= m; j++)
-                {
-                    if (mas[i, j] == maxValue)
-                    {
-                        flagCountMaxValueInMas++;
-                    }
-                }
-
-                if(flagCountMaxValueInMas >= 2)
-                {
-                    label5.Text = "True";
-                    return;
-                }
-            }
-
-            label5.Text = "False";
-
         }
 
         private void button2_Click(object sender, EventArgs e)

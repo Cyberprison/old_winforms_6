@@ -70,6 +70,12 @@
     <Compile Include="GeneralTask2.Designer.cs">
       <DependentUpon>GeneralTask2.cs</DependentUpon>
     </Compile>
+    <Compile Include="GeneralTask3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralTask3.Designer.cs">
+      <DependentUpon>GeneralTask3.cs</DependentUpon>
+    </Compile>
     <Compile Include="IndividualTask1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralTask1.resx">
+      <DependentUpon>GeneralTask1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralTask2.resx">
+      <DependentUpon>GeneralTask2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralTask3.resx">
+      <DependentUpon>GeneralTask3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualTask1.resx">
+      <DependentUpon>IndividualTask1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualTask2.resx">
+      <DependentUpon>IndividualTask2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualTask3.resx">
+      <DependentUpon>IndividualTask3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

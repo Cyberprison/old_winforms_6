@@ -39,6 +39,7 @@
             this.индивидуальноеЗадание1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.индивидуальноеЗадание2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.индивидуальноеЗадание3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.общееЗадание3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,14 +67,14 @@
             // оПроектеToolStripMenuItem
             // 
             this.оПроектеToolStripMenuItem.Name = "оПроектеToolStripMenuItem";
-            this.оПроектеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оПроектеToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.оПроектеToolStripMenuItem.Text = "О проекте";
             this.оПроектеToolStripMenuItem.Click += new System.EventHandler(this.оПроектеToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -81,7 +82,8 @@
             // 
             this.общиеЗаданияToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.общееЗадание1ToolStripMenuItem,
-            this.общееЗадание2ToolStripMenuItem});
+            this.общееЗадание2ToolStripMenuItem,
+            this.общееЗадание3ToolStripMenuItem});
             this.общиеЗаданияToolStripMenuItem.Name = "общиеЗаданияToolStripMenuItem";
             this.общиеЗаданияToolStripMenuItem.Size = new System.Drawing.Size(105, 20);
             this.общиеЗаданияToolStripMenuItem.Text = "Общие задания";
@@ -131,6 +133,13 @@
             this.индивидуальноеЗадание3ToolStripMenuItem.Text = "Индивидуальное задание 3";
             this.индивидуальноеЗадание3ToolStripMenuItem.Click += new System.EventHandler(this.индивидуальноеЗадание3ToolStripMenuItem_Click);
             // 
+            // общееЗадание3ToolStripMenuItem
+            // 
+            this.общееЗадание3ToolStripMenuItem.Name = "общееЗадание3ToolStripMenuItem";
+            this.общееЗадание3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.общееЗадание3ToolStripMenuItem.Text = "Общее задание 3";
+            this.общееЗадание3ToolStripMenuItem.Click += new System.EventHandler(this.общееЗадание3ToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,6 +169,7 @@
         private System.Windows.Forms.ToolStripMenuItem индивидуальноеЗадание1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem индивидуальноеЗадание2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem индивидуальноеЗадание3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem общееЗадание3ToolStripMenuItem;
     }
 }
 
